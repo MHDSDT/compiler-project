@@ -1,0 +1,11 @@
+0	(ASSIGN, #504, 500, ) define_array
+1	(JP, 5, , ) return_from_func2
+2	(ASSIGN, #1, 516, ) return_from_func0
+3	(JP, @512, , ) return_from_func0
+4	(JP, @512, , ) return_from_func1
+5	(ASSIGN, #0, 536, ) return_from_func1
+6	(MULT, #4, #0, 528) array_index
+7	(ASSIGN, 508, 532, ) array_index
+8	(ADD, 532, 528, 532) array_index
+9	(ASSIGN, #0, @532, ) assign_operation
+10	(PRINT, #1, , ) call_func

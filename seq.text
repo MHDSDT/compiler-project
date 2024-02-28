@@ -1,0 +1,8 @@
+(4, 'int')
+(9, 'void')
+get_id arr 1 [5, 'main', '532', '528']
+symbol_table [('arr', 'int*', '500', 0), ('arr', 'int*', '516', 1), ('main', 'function', ['532', [], '528', 6], 0, 'void')]
+get_id foo 1 [5, 'main', '532', '528']
+get_id arr 1 [5, 'main', '532', '528', None]
+symbol_table [('arr', 'int*', '500', 0), ('arr', 'int*', '516', 1), ('main', 'function', ['532', [], '528', 6], 0, 'void')]
+call_func [5, 'main', '532', '528', None, '516'] [] [5, 'main', '532', '528', None, '516']

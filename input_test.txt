@@ -1,0 +1,12 @@
+/* === Test Case 8 === */
+int arr[3];
+
+int foo(int arr[]) {
+	return 1;
+}
+
+
+void main(void) {
+	arr[1] = 0;
+	output(1);
+}
